@@ -1,1 +1,113 @@
 /* Ini CSS */
+body {
+     font-family: 'Arial', sans-serif;
+     margin: 0;
+     padding:0;
+     background-color: #ffffff;
+     color: rgb(0, 0, 0);
+     
+
+header {
+     background-color: #060b3d;
+     padding: 1rem;
+     color: #ffffff;
+}
+
+nav ul {
+     list-style-type: none;
+     display: flex;
+     justify-content: space-around;
+}
+
+nav ul li a {
+     color: #ffffff;
+     text-decoration: none;
+}
+
+main {
+    padding: 0rem;
+}
+
+/* home section */
+#home {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* Profile section */
+ .banner-img {
+    height: 500px;
+    background-image: url(https://picsum.photos/1000);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* contact form */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.profile-item {
+    height: 150px;
+    text-align: -webkit-center;
+    margin-top: 3rem;
+
+}
+
+.profile-img {
+    height: 50px;
+    background-image: url(https://picsum.photos/250);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 50px;
+}
+
+#contact input
+#contact textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #16213e;
+    color: #e0e0e0;
+}
+
+#contact button {
+    background-color: #0e104d;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+/* responsive design */
+@media (max-width:768px) {
+    nav ul { flex-direction: column;}
+    align-items: center;
+}
+
+nav ul li {
+    margin-bottom: 0.5rem;
+}
+
+#profile .banner {
+    height: 150px;
+}
+
+@media screen and {max-width: 500px;
+    
+}
+
+
+
+
+
